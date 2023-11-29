@@ -4,13 +4,14 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 .contenedor{
     width: 90%;
     max-width: 100%;
     margin: auto;
     height: 156px;
+    background: url(/img/Banner\ chaplafood.jpg);
     background-color: rgb(255, 200, 0);
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -23,15 +24,64 @@ nav a{
 }
 nav{
     margin: 10px 0;
-    text-align: right;
+    text-align: center;
 }
 header nav a{
     margin: 0 10px;
     padding-bottom: 7px;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
-    color: black;
+    border-bottom: 5px solid transparent;
+    color: white;
 }
-a{
-    
+.logo{
+    text-align: center;
 }
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+.redesociales{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+footer .redesociales .pie a{
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-size: 40px;
+    padding: 15px 10px;
+    margin: 0 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+footer .redesociales .pie{
+    justify-content: center;
+}
+footer .redesociales .pie .facebook:hover{
+    background: #3b5998;
+}
+footer .redesociales .pie .instagram:hover{
+    background: #c13584; 
+ }
+footer .redesociales .pie .youtube:hover{
+    background: #ff0000; 
+ }
+footer .redesociales .pie .twitter:hover{
+    background: #1da1f2; 
+ }
